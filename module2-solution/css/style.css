@@ -89,6 +89,7 @@ p{
     visibility: hidden;
     transition: 0.7s ease;
     opacity: 0;
+    margin-bottom: 3px;
 }
 
 article:hover .buy{
@@ -103,6 +104,10 @@ article:hover img{
     transform: scale(0.6)
 }
 
+.buy:hover{
+  background-color: white;
+  color:rgb(158, 186, 255);
+}
 
 footer{
     font-size: 15px;
